@@ -54,7 +54,7 @@ Initialization of the Docker image to run those Jupyter notebooks:
 ```
 $ docker pull artificialintelligence/python-jupyter
 ```
-Usgae
+Usage
 ```
 $ cd ~/dev/ml/PythonMachineLearning
 $ docker run -d -p 9000:8888 -v ${PWD}:/notebook -v ${PWD}:/data artificialintelligence/python-jupyter
